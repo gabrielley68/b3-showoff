@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.scss';
+import Engine from './Component/Engine/Engine';
 
 function App() {
-  return (
-    <div className="App">
-        <button onClick={() => alert('hello')}>Let's go</button>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Engine/>
+        </div>
+    );
 }
 
 export default App;
